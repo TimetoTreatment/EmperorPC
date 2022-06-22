@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{20105caa-d751-49ea-be5c-114e19e94176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form UI">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Form Source Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainForm.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="MainForm.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Database.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryResult.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogNewAuthentication.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDelete.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogInsert1.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogInsert2.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogInsert3.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogInsert4.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogUpdate4.cpp">
+      <Filter>Form Source Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Database.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryResult.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainForm.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+    <QtMoc Include="DialogNewAuthentication.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+    <QtMoc Include="DialogDelete.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+    <QtMoc Include="DialogInsert1.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+    <QtMoc Include="DialogInsert2.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+    <QtMoc Include="DialogInsert3.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+    <QtMoc Include="DialogInsert4.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+    <QtMoc Include="DialogUpdate4.h">
+      <Filter>Form Source Code</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="DialogNewAuthentication.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+    <QtUic Include="DialogDelete.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+    <QtUic Include="DialogInsert1.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+    <QtUic Include="DialogInsert3.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+    <QtUic Include="DialogInsert4.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+    <QtUic Include="DialogInsert2.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+    <QtUic Include="DialogUpdate4.ui">
+      <Filter>Form UI</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
